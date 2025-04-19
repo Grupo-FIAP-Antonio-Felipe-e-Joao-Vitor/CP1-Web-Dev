@@ -53,3 +53,9 @@ let peso = 60; // Peso em kg
 let altura = 1.70; // Altura em metros
 
 calcularIMC(peso, altura)
+
+// EXERCICIO 4
+
+for(let i=0; i<=50; i++){
+    console.log(`O valor é: ${i}`)
+}
