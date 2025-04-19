@@ -59,3 +59,23 @@ calcularIMC(peso, altura)
 for(let i=0; i<=50; i++){
     console.log(`O valor é: ${i}`)
 }
+
+// EXERCICIO 5
+
+const usuario = "admin"
+const senha = 1234
+
+cadastro = prompt("Digite seu usuário")
+codigo = parseInt(prompt("Digite sua senha"))
+
+while(cadastro !== usuario || codigo !== senha){
+    alert("Falha na autenticação")
+    cadastro = prompt("Digite seu usuário")
+    codigo = parseInt(prompt("Digite sua senha"))
+    if (cadastro == usuario &&  codigo == senha){
+        break
+    }
+}
+
+alert("Sucesso na autenticação")
+
