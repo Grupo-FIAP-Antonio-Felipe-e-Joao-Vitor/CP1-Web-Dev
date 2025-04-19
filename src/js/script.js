@@ -62,20 +62,37 @@ for(let i=0; i<=50; i++){
 
 // EXERCICIO 5
 
-const usuario = "admin"
-const senha = 1234
+// const usuario = "admin"
+// const senha = 1234
 
-cadastro = prompt("Digite seu usuário")
-codigo = parseInt(prompt("Digite sua senha"))
+// cadastro = prompt("Digite seu usuário")
+// codigo = parseInt(prompt("Digite sua senha"))
 
-while(cadastro !== usuario || codigo !== senha){
-    alert("Falha na autenticação")
-    cadastro = prompt("Digite seu usuário")
-    codigo = parseInt(prompt("Digite sua senha"))
-    if (cadastro == usuario &&  codigo == senha){
-        break
-    }
+// while(cadastro !== usuario || codigo !== senha){
+//     alert("Falha na autenticação")
+//     cadastro = prompt("Digite seu usuário")
+//     codigo = parseInt(prompt("Digite sua senha"))
+//     if (cadastro == usuario &&  codigo == senha){
+//         break
+//     }
+// }
+
+// alert("Sucesso na autenticação")
+
+// EXERCICIO 6
+
+let nt1 = parseFloat(prompt("Digite sua primeira nota"))
+let nt2 = parseFloat(prompt("Digite sua segunda nota"))
+let nt3 = parseFloat(prompt("Digite sua terceira nota"))
+let nt4 = parseFloat(prompt("Digite sua quarta nota"))
+let nt5 = parseFloat(prompt("Digite sua quinta nota"))
+let nt6 = parseFloat(prompt("Digite sua sexta nota"))
+let nt7 = parseFloat(prompt("Digite sua setima nota"))
+
+media = ((nt1 + nt2 + nt3 + nt4 + nt5 + nt6 + nt7)/7)
+
+if (media >= 6){
+    alert("Você foi aprovado")
+}else{
+    alert("Você foi reprovado")
 }
-
-alert("Sucesso na autenticação")
-
