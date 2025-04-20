@@ -1,64 +1,64 @@
 // EXERCICIO 1
 
-let variavel1; //Variavel undefined
-let variavel2 = ""; //Variavel com valor vazio
-let variavel3 = 10; //Variavel com valor
+// let variavel1; //Variavel undefined
+// let variavel2 = ""; //Variavel com valor vazio
+// let variavel3 = 10; //Variavel com valor
 
-console.log(variavel1)
-console.log(variavel2)
-console.log(variavel3)
+// console.log(variavel1)
+// console.log(variavel2)
+// console.log(variavel3)
 
 
 
-// EXERCICIO 2
-// Operadores comarativos retornam TRUE ou FALSE
+// // EXERCICIO 2
+// // Operadores comarativos retornam TRUE ou FALSE
 
-let variavel4 = 5;
-let variavel5 = 6;
-let variavel6 = '5';
-let variavel7 = '5';
+// let variavel4 = 5;
+// let variavel5 = 6;
+// let variavel6 = '5';
+// let variavel7 = '5';
 
-console.log(variavel4 >= variavel5) // Retorna falso, porque 5 não é maior ou igual a 6
-console.log(variavel4 <= variavel5) // Retorna verdadeiro, porque 5 é menor que 6
-console.log(variavel4 == variavel5) // Retorna falso, porque 5 nõ é igual a 6
-console.log(variavel4 != variavel5) // Retorna verdadeiro, porque 5 é diferente de 6
-console.log(variavel4 === variavel6) // Retorna falso, porque o === compara os valores e o tipo, sendo assim mesmo que ambas são 5, o tipo de uma é number e o tipo de outra é string
-console.log(variavel6 === variavel7) // Retorna verdadeiro, porque tanto o valor quanto o tipo das variaveis são iguais
+// console.log(variavel4 >= variavel5) // Retorna falso, porque 5 não é maior ou igual a 6
+// console.log(variavel4 <= variavel5) // Retorna verdadeiro, porque 5 é menor que 6
+// console.log(variavel4 == variavel5) // Retorna falso, porque 5 nõ é igual a 6
+// console.log(variavel4 != variavel5) // Retorna verdadeiro, porque 5 é diferente de 6
+// console.log(variavel4 === variavel6) // Retorna falso, porque o === compara os valores e o tipo, sendo assim mesmo que ambas são 5, o tipo de uma é number e o tipo de outra é string
+// console.log(variavel6 === variavel7) // Retorna verdadeiro, porque tanto o valor quanto o tipo das variaveis são iguais
 
 
 
 
 // EXERCICIO 3
 
-function calcularIMC (peso, altura) {
-    let IMC = peso / (altura * altura)
+// function calcularIMC (peso, altura) {
+//     let IMC = peso / (altura * altura)
 
 
-    switch (true) {
-        case IMC < 18.5:
-            console.log("Abaixo do peso")
-            break;
-        case IMC >= 18.5 && IMC <= 24.9:
-            console.log("Peso ideal")
-            break;
-        case IMC > 24.9:
-            console.log("Acima do peso")
-            break;
-        default:
-            break;
-    }
-}
+//     switch (true) {
+//         case IMC < 18.5:
+//             console.log("Abaixo do peso")
+//             break;
+//         case IMC >= 18.5 && IMC <= 24.9:
+//             console.log("Peso ideal")
+//             break;
+//         case IMC > 24.9:
+//             console.log("Acima do peso")
+//             break;
+//         default:
+//             break;
+//     }
+// }
 
-let peso = 60; // Peso em kg
-let altura = 1.70; // Altura em metros
+// let peso = 60; // Peso em kg
+// let altura = 1.70; // Altura em metros
 
-calcularIMC(peso, altura)
+// calcularIMC(peso, altura)
 
-// EXERCICIO 4
+// // EXERCICIO 4
 
-for(let i=0; i<=50; i++){
-    console.log(`O valor é: ${i}`)
-}
+// for(let i=0; i<=50; i++){
+//     console.log(`O valor é: ${i}`)
+// }
 
 // EXERCICIO 5
 
@@ -81,22 +81,34 @@ for(let i=0; i<=50; i++){
 
 // EXERCICIO 6
 
-let nt1 = parseFloat(prompt("Digite sua primeira nota"))
-let nt2 = parseFloat(prompt("Digite sua segunda nota"))
-let nt3 = parseFloat(prompt("Digite sua terceira nota"))
-let nt4 = parseFloat(prompt("Digite sua quarta nota"))
-let nt5 = parseFloat(prompt("Digite sua quinta nota"))
-let nt6 = parseFloat(prompt("Digite sua sexta nota"))
-let nt7 = parseFloat(prompt("Digite sua setima nota"))
+// let nt1 = parseFloat(prompt("Digite sua primeira nota"))
+// let nt2 = parseFloat(prompt("Digite sua segunda nota"))
+// let nt3 = parseFloat(prompt("Digite sua terceira nota"))
+// let nt4 = parseFloat(prompt("Digite sua quarta nota"))
+// let nt5 = parseFloat(prompt("Digite sua quinta nota"))
+// let nt6 = parseFloat(prompt("Digite sua sexta nota"))
+// let nt7 = parseFloat(prompt("Digite sua setima nota"))
 
-media = ((nt1 + nt2 + nt3 + nt4 + nt5 + nt6 + nt7)/7)
+// media = ((nt1 + nt2 + nt3 + nt4 + nt5 + nt6 + nt7)/7)
 
-if (media >= 6){
-    alert("Você foi aprovado")
-}else{
-    alert("Você foi reprovado")
-}
+// if (media >= 6){
+//     alert("Você foi aprovado")
+// }else{
+//     alert("Você foi reprovado")
+// }
 
+
+// EXERCICIO 7
+
+//     let nome = prompt("Isira seu nome")
+//     let idade = prompt("Insira sua idade")
+//     let curso = prompt("Insira sei curso")
+//     let ano = prompt("Insira em que ano do curso você está")
+
+//     alert(`Nome: ${nome}
+// Idade: ${idade}
+// Curso: ${curso}
+// Ano: ${ano}`)
 
 //EXERCICIO 8
 
