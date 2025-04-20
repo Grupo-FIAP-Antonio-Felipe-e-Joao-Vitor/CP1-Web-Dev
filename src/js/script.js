@@ -36,21 +36,21 @@
 
 //     switch (true) {
 //         case IMC < 18.5:
-//             console.log("Abaixo do peso")
+//             alert("Abaixo do peso")
 //             break;
 //         case IMC >= 18.5 && IMC <= 24.9:
-//             console.log("Peso ideal")
+//             alert("Peso ideal")
 //             break;
 //         case IMC > 24.9:
-//             console.log("Acima do peso")
+//             alert("Acima do peso")
 //             break;
 //         default:
 //             break;
 //     }
 // }
 
-// let peso = 60; // Peso em kg
-// let altura = 1.70; // Altura em metros
+// let peso = prompt("Peso em Kg"); // Peso em kg
+// let altura = prompt("Altura em metros"); // Altura em metros
 
 // calcularIMC(peso, altura)
 
@@ -125,10 +125,10 @@
 
 //EXERCICIO 9
 
-let valorString = "578.21";
-let valorFloat = parseFloat(valorString);
-let tipoVariavel = typeof valorFloat;
+// let valorString = "578.21";
+// let valorFloat = parseFloat(valorString);
+// let tipoVariavel = typeof valorFloat;
 
-console.log("Valor original:", valorString);
-console.log("Valor convertido para float:", valorFloat);
-console.log("Tipo da variável:", tipoVariavel);
+// console.log("Valor original:", valorString);
+// console.log("Valor convertido para float:", valorFloat);
+// console.log("Tipo da variável:", tipoVariavel);
