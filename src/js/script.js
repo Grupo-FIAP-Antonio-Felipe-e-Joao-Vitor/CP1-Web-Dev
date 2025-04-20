@@ -111,3 +111,12 @@ if (media >= 6){
 // console.log("Palavra 'ciência' presente?", buscaCiencia);
 // console.log("Palavra 'métodos' presente?", buscaMetodos);
 
+//EXERCICIO 9
+
+let valorString = "578.21";
+let valorFloat = parseFloat(valorString);
+let tipoVariavel = typeof valorFloat;
+
+console.log("Valor original:", valorString);
+console.log("Valor convertido para float:", valorFloat);
+console.log("Tipo da variável:", tipoVariavel);
