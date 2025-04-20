@@ -96,3 +96,18 @@ if (media >= 6){
 }else{
     alert("Você foi reprovado")
 }
+
+
+//EXERCICIO 8
+
+// const texto = "Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas.";
+// const primeiraPosicaoEm = texto.indexOf("em");
+// const ultimaPosicaoIa = texto.lastIndexOf("ia");
+// const buscaCiencia = texto.includes("ciência");
+// const buscaMetodos = texto.includes("métodos");
+
+// console.log("Primeira posição de 'em':", primeiraPosicaoEm);
+// console.log("Última posição de 'ia':", ultimaPosicaoIa);
+// console.log("Palavra 'ciência' presente?", buscaCiencia);
+// console.log("Palavra 'métodos' presente?", buscaMetodos);
+
