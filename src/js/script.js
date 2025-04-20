@@ -102,7 +102,7 @@
 
 //     let nome = prompt("Isira seu nome")
 //     let idade = prompt("Insira sua idade")
-//     let curso = prompt("Insira sei curso")
+//     let curso = prompt("Insira seu curso")
 //     let ano = prompt("Insira em que ano do curso você está")
 
 //     alert(`Nome: ${nome}
